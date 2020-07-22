@@ -19,11 +19,12 @@
 <body>
   <div class="login">
     <p class="sign" align="center">Sign in</p>
-    <form action="login.jsp" class="form1">
-      <input class="un " type="text" align="center" placeholder="Username">
-      <input class="pass" type="password" align="center" placeholder="Password">
-      <a class="submit" align="center">Sign in</a>
+    <form action="login_form_process.jsp" method="POST" class="form1">
+      <input class="un " type="text" align="center" name="username" placeholder="Username">
+      <input class="pass" type="password" align="center"name="password"  placeholder="password">
+      <input type="submit" value="Sign in" class="submit" align="center" />
       <p class="forgot" align="center"><a href="#">Forgot Password?</p>
+    </form>
             
                 
     </div>
